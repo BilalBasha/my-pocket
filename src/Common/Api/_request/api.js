@@ -24,8 +24,7 @@ function request(options) {
     cache: 'no-cache',
     headers: headers,
     method: 'POST',
-    credentials: 'include',
-    mode: 'no-cors'
+    credentials: 'include'
   }
 
   return fetch(options.path, fetchData)
